@@ -1,0 +1,20 @@
+{
+  "_doc": "Illustrative template, not footage evidence. Sampling windows are observation units; a complete action can cross several. Fill from actual images/playback and keep provisional bounds explicit. See oxi-premiere-workflow/references/footage-index.md.",
+  "actions": [
+    {
+      "media_path": "<exact source path>",
+      "source_in": 10.0,
+      "source_out": 16.0,
+      "segment_ids": ["SOURCE-06", "SOURCE-07", "SOURCE-08"],
+      "action": "<what visibly happens across the whole range>",
+      "phase": "execution",
+      "camera": "<observed camera movement>",
+      "issues": "<focus, obstruction, camera search and uncertain interpretation>",
+      "review_basis": "sampled_frames",
+      "bounds_provisional": true,
+      "evidence": ["<overview sheet>", "<1-second inspection sheet>"],
+      "script_line_ids": ["<approved Script Map line id, if available>"],
+      "possible_roles": ["illustrate"]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "OXI Premiere Workflow"
+  short_description: "Dựng Premiere, hiệu ứng element, thoại và màu"
+  default_prompt: "Use $oxi-premiere-workflow to edit this Premiere project, add graphic elements using HyperFrames or Remotion, clean spoken audio, or grade color with Oxi approved stages."

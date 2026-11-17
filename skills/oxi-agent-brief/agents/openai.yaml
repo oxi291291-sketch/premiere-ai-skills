@@ -1,0 +1,4 @@
+interface:
+  display_name: "Giao việc cho AI"
+  short_description: "Nắm brief trước khi dựng PR, hoặc soạn prompt giao AI"
+  default_prompt: "Dùng $oxi-agent-brief để hiểu mục đích, đầu ra, phạm vi và phần còn thiếu; nếu tôi giao dựng Premiere thì phân tích rồi tiếp tục các chặng được giao, nếu chỉ yêu cầu viết prompt thì trả prompt cho agent phù hợp."

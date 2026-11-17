@@ -1,0 +1,408 @@
+{
+ "_doc": "Manifest mau cua chang 1 (oxi-premiere-workflow/scripts/segment_sheets.py), rut gon cho 4 clip trong broll-plan-example.json. Bang truong: oxi-premiere-workflow/references/footage-index.md.",
+ "schema": 2,
+ "sources": [
+  {
+   "schema": 2,
+   "name": "C9705.MP4",
+   "media_path": "D:/footage/broll/C9705.MP4",
+   "duration": 17.5,
+   "width": 3840,
+   "height": 2160,
+   "rotate": 0,
+   "portrait": false,
+   "scene_cuts": 2,
+   "segments": [
+    {
+     "id": "C9705-01",
+     "index": 1,
+     "start": 0,
+     "end": 5.0,
+     "duration": 5.0,
+     "sheet": "C9705.jpg",
+     "row": 1,
+     "frames": [
+      0.75,
+      2.5,
+      4.25
+     ],
+     "metrics": {
+      "luma": null,
+      "blur": null,
+      "motion": null
+     },
+     "flags": [],
+     "description": "",
+     "subject": "",
+     "shot": "",
+     "camera": "",
+     "energy": null,
+     "usable": true,
+     "uncertain": false,
+     "look": null,
+     "best_in": null,
+     "best_out": null,
+     "issues": "",
+     "ideas": [],
+     "roles": []
+    },
+    {
+     "id": "C9705-02",
+     "index": 2,
+     "start": 5.0,
+     "end": 10.0,
+     "duration": 5.0,
+     "sheet": "C9705.jpg",
+     "row": 2,
+     "frames": [
+      5.75,
+      7.5,
+      9.25
+     ],
+     "metrics": {
+      "luma": null,
+      "blur": null,
+      "motion": null
+     },
+     "flags": [],
+     "description": "",
+     "subject": "",
+     "shot": "",
+     "camera": "",
+     "energy": null,
+     "usable": true,
+     "uncertain": false,
+     "look": null,
+     "best_in": null,
+     "best_out": null,
+     "issues": "",
+     "ideas": [],
+     "roles": []
+    },
+    {
+     "id": "C9705-03",
+     "index": 3,
+     "start": 10.0,
+     "end": 17.5,
+     "duration": 7.5,
+     "sheet": "C9705.jpg",
+     "row": 3,
+     "frames": [
+      11.12,
+      13.75,
+      16.38
+     ],
+     "metrics": {
+      "luma": null,
+      "blur": null,
+      "motion": null
+     },
+     "flags": [],
+     "description": "Ngan keo ben trong tu duoc keo ra, may day vao chi tiet ray truot.",
+     "subject": "ngan keo, ray truot",
+     "shot": "close",
+     "camera": "push",
+     "energy": 0.7,
+     "usable": true,
+     "uncertain": false,
+     "look": 0.95,
+     "best_in": 12.0,
+     "best_out": 16.5,
+     "issues": "",
+     "ideas": [],
+     "roles": [
+      "reveal",
+      "illustrate"
+     ]
+    }
+   ]
+  },
+  {
+   "schema": 2,
+   "name": "C9719.MP4",
+   "media_path": "D:/footage/broll/C9719.MP4",
+   "duration": 5.0,
+   "width": 3840,
+   "height": 2160,
+   "rotate": 0,
+   "portrait": false,
+   "scene_cuts": 0,
+   "segments": [
+    {
+     "id": "C9719-01",
+     "index": 1,
+     "start": 0,
+     "end": 5.0,
+     "duration": 5.0,
+     "sheet": "C9719.jpg",
+     "row": 1,
+     "frames": [
+      0.75,
+      2.5,
+      4.25
+     ],
+     "metrics": {
+      "luma": null,
+      "blur": null,
+      "motion": null
+     },
+     "flags": [],
+     "description": "Chu duc `feature X` tren than tu, net tu 1.5s.",
+     "subject": "feature X",
+     "shot": "macro",
+     "camera": "static",
+     "energy": 0.3,
+     "usable": true,
+     "uncertain": false,
+     "look": 0.9,
+     "best_in": 1.5,
+     "best_out": 4.8,
+     "issues": "lay net 0-1.5s",
+     "ideas": [],
+     "roles": [
+      "evidence"
+     ]
+    }
+   ]
+  },
+  {
+   "schema": 2,
+   "name": "C9731.MP4",
+   "media_path": "D:/footage/broll/C9731.MP4",
+   "duration": 10.0,
+   "width": 3840,
+   "height": 2160,
+   "rotate": 0,
+   "portrait": false,
+   "scene_cuts": 1,
+   "segments": [
+    {
+     "id": "C9731-01",
+     "index": 1,
+     "start": 0,
+     "end": 3.5,
+     "duration": 3.5,
+     "sheet": "C9731.jpg",
+     "row": 1,
+     "frames": [
+      0.53,
+      1.75,
+      2.98
+     ],
+     "metrics": {
+      "luma": null,
+      "blur": null,
+      "motion": null
+     },
+     "flags": [],
+     "description": "",
+     "subject": "",
+     "shot": "",
+     "camera": "",
+     "energy": null,
+     "usable": true,
+     "uncertain": false,
+     "look": null,
+     "best_in": null,
+     "best_out": null,
+     "issues": "",
+     "ideas": [],
+     "roles": []
+    },
+    {
+     "id": "C9731-02",
+     "index": 2,
+     "start": 3.5,
+     "end": 10.0,
+     "duration": 6.5,
+     "sheet": "C9731.jpg",
+     "row": 2,
+     "frames": [
+      4.47,
+      6.75,
+      9.02
+     ],
+     "metrics": {
+      "luma": null,
+      "blur": null,
+      "motion": null
+     },
+     "flags": [],
+     "description": "Toan canh gian bep, lia ngang tu trai qua tu lanh.",
+     "subject": "gian bep",
+     "shot": "wide",
+     "camera": "pan",
+     "energy": 0.5,
+     "usable": true,
+     "uncertain": false,
+     "look": 0.85,
+     "best_in": null,
+     "best_out": null,
+     "issues": "",
+     "ideas": [],
+     "roles": [
+      "establish"
+     ]
+    }
+   ]
+  },
+  {
+   "schema": 2,
+   "name": "C9742.MP4",
+   "media_path": "D:/footage/broll/C9742.MP4",
+   "duration": 22.0,
+   "width": 3840,
+   "height": 2160,
+   "rotate": 0,
+   "portrait": false,
+   "scene_cuts": 3,
+   "segments": [
+    {
+     "id": "C9742-01",
+     "index": 1,
+     "start": 0.0,
+     "end": 4.0,
+     "duration": 4.0,
+     "sheet": "C9742.jpg",
+     "row": 1,
+     "frames": [
+      0.6,
+      2.0,
+      3.4
+     ],
+     "metrics": {
+      "luma": null,
+      "blur": null,
+      "motion": null
+     },
+     "flags": [],
+     "description": "",
+     "subject": "",
+     "shot": "",
+     "camera": "",
+     "energy": null,
+     "usable": true,
+     "uncertain": false,
+     "look": null,
+     "best_in": null,
+     "best_out": null,
+     "issues": "",
+     "ideas": [],
+     "roles": []
+    },
+    {
+     "id": "C9742-02",
+     "index": 2,
+     "start": 4.0,
+     "end": 8.0,
+     "duration": 4.0,
+     "sheet": "C9742.jpg",
+     "row": 2,
+     "frames": [
+      4.6,
+      6.0,
+      7.4
+     ],
+     "metrics": {
+      "luma": null,
+      "blur": null,
+      "motion": null
+     },
+     "flags": [],
+     "description": "",
+     "subject": "",
+     "shot": "",
+     "camera": "",
+     "energy": null,
+     "usable": true,
+     "uncertain": false,
+     "look": null,
+     "best_in": null,
+     "best_out": null,
+     "issues": "",
+     "ideas": [],
+     "roles": []
+    },
+    {
+     "id": "C9742-03",
+     "index": 3,
+     "start": 8.0,
+     "end": 12.0,
+     "duration": 4.0,
+     "sheet": "C9742.jpg",
+     "row": 3,
+     "frames": [
+      8.6,
+      10.0,
+      11.4
+     ],
+     "metrics": {
+      "luma": null,
+      "blur": null,
+      "motion": null
+     },
+     "flags": [],
+     "description": "",
+     "subject": "",
+     "shot": "",
+     "camera": "",
+     "energy": null,
+     "usable": true,
+     "uncertain": false,
+     "look": null,
+     "best_in": null,
+     "best_out": null,
+     "issues": "",
+     "ideas": [],
+     "roles": []
+    },
+    {
+     "id": "C9742-04",
+     "index": 4,
+     "start": 16.0,
+     "end": 22.0,
+     "duration": 6.0,
+     "sheet": "C9742.jpg",
+     "row": 4,
+     "frames": [
+      16.9,
+      19.0,
+      21.1
+     ],
+     "metrics": {
+      "luma": null,
+      "blur": null,
+      "motion": null
+     },
+     "flags": [],
+     "description": "Tay mo ngan keo duoi, lay do an ra.",
+     "subject": "ngan keo duoi",
+     "shot": "medium",
+     "camera": "handheld",
+     "energy": 0.7,
+     "usable": true,
+     "uncertain": false,
+     "look": 0.8,
+     "best_in": 18.0,
+     "best_out": 21.5,
+     "issues": "rung nhe dau canh",
+     "ideas": [],
+     "roles": [
+      "illustrate"
+     ]
+    }
+   ]
+  }
+ ],
+ "total_segments": 10,
+ "looked": 4,
+ "not_looked": [
+  "C9705-01",
+  "C9705-02",
+  "C9731-01",
+  "C9742-01",
+  "C9742-02",
+  "C9742-03"
+ ],
+ "missing_media": []
+}

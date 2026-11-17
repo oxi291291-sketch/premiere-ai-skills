@@ -1,0 +1,137 @@
+{
+  "_doc": "Hinh dang cua broll_plan.json. Doc kem references/matching.md (vai tro, thang diem) va references/placement.md (dat theo cau, kieu cat `cut`, V2 vs V3). Truong `cut`: hard | j | l | action | match | beat | montage; canh tren 10s can `long_ok`. Truong `scores` cham 0.0-1.0 moi tieu chi; broll_plan.py score nhan len trong so role 30 / content 20 / quality 20 / shot_flow 15 / energy 10 / camera 5, nguong 80. `quality` khong duoc cao hon `look` cua segment trong manifest qua 0.15. O job that `manifest` la index/manifest.json cua chang 1; o day tro toi manifest-example.json de validate chay duoc.",
+  "sequence": "ProductC_5-6PHUT",
+  "project": "ProductC_2026.prproj",
+  "generated": "2026-09-06",
+  "gapmap": "gapmap.json",
+  "manifest": "manifest-example.json",
+  "clips": [
+    {
+      "source": "C9705.MP4",
+      "media_path": "D:/footage/broll/C9705.MP4",
+      "segment_id": "C9705-03",
+      "role": "reveal",
+      "shot": "close",
+      "camera": "push",
+      "source_in": 12.4,
+      "source_out": 16.1,
+      "timeline_in": 41.8,
+      "timeline_out": 45.5,
+      "track": "V2",
+      "track_index": 1,
+      "line_start": 42.4,
+      "line": "<lời thoại>",
+      "why": "Cau noi ve cai khuat, khong noi ve mat nhin. Close-up ngan keo day chi tiet ben trong ra, dung viec ma cau dang lam.",
+      "candidate_comparison": "<Compare the available alternatives against this exact line and adjacent shots; state when no alternative exists>",
+      "review": {
+        "_doc": "Template fields: replace placeholders with actual review evidence before placement; this example is not playback proof.",
+        "action": "<Observed complete action in source_in-source_out>",
+        "evidence": [
+          "<large image path>",
+          "<dense inspection or playback evidence path>"
+        ],
+        "motion_check": "<Playback verified, or why motion continuity is not required>",
+        "audio_basis": "<Current sequence audio/transcript or approved narration identifier>"
+      },
+      "covers_v1_gap": true,
+      "scores": {
+        "role": 1.0,
+        "content": 0.9,
+        "shot_flow": 0.85,
+        "energy": 0.8,
+        "camera": 0.9,
+        "quality": 1.0
+      },
+      "cut": "j"
+    },
+    {
+      "source": "C9719.MP4",
+      "media_path": "D:/footage/broll/C9719.MP4",
+      "segment_id": "C9719-01",
+      "role": "evidence",
+      "shot": "macro",
+      "camera": "static",
+      "source_in": 2.0,
+      "source_out": 4.6,
+      "timeline_in": 63.2,
+      "timeline_out": 65.8,
+      "track": "V2",
+      "track_index": 1,
+      "line_start": 63.8,
+      "line": "<lời thoại>",
+      "why": "Chu duc `feature X` tren than tu doc duoc tren contact sheet. Day la canh quay rieng cho dung y nay, khong phai cum NG.",
+      "covers_v1_gap": false,
+      "scores": {
+        "role": 1.0,
+        "content": 1.0,
+        "shot_flow": 0.7,
+        "energy": 0.4,
+        "camera": 0.8,
+        "quality": 0.95
+      },
+      "cut": "hard"
+    },
+    {
+      "source": "C9731.MP4",
+      "media_path": "D:/footage/broll/C9731.MP4",
+      "segment_id": "C9731-02",
+      "role": "establish",
+      "shot": "wide",
+      "camera": "pan",
+      "source_in": 5.0,
+      "source_out": 9.4,
+      "timeline_in": 88.0,
+      "timeline_out": 92.4,
+      "track": "V2",
+      "track_index": 1,
+      "line_start": 88.5,
+      "line": "<lời thoại>",
+      "why": "Doi doan, can xac lap lai khong gian sau hai canh close lien tiep.",
+      "covers_v1_gap": true,
+      "scores": {
+        "role": 0.95,
+        "content": 0.85,
+        "shot_flow": 1.0,
+        "energy": 0.6,
+        "camera": 0.85,
+        "quality": 0.9
+      },
+      "cut": "j"
+    },
+    {
+      "source": "C9742.MP4",
+      "media_path": "D:/footage/broll/C9742.MP4",
+      "segment_id": "C9742-04",
+      "role": "illustrate",
+      "shot": "medium",
+      "camera": "handheld",
+      "source_in": 18.2,
+      "source_out": 21.0,
+      "timeline_in": 90.6,
+      "timeline_out": 93.4,
+      "track": "V3",
+      "track_index": 2,
+      "line_start": 91.0,
+      "line": "<lời thoại>",
+      "why": "Chong len canh wide dang chay o V2 lam lop thu hai, khong phai de tranh va cham track.",
+      "covers_v1_gap": false,
+      "scores": {
+        "role": 0.9,
+        "content": 0.9,
+        "shot_flow": 0.8,
+        "energy": 0.75,
+        "camera": 0.7,
+        "quality": 0.85
+      },
+      "cut": "l"
+    }
+  ],
+  "gaps_left": [
+    {
+      "start": 150.2,
+      "end": 156.9,
+      "need": "canh do lanh ngan mat / hoi lanh boc len khi mo cua",
+      "note": "Bin khong co canh nao. Bao Oxi de anh quyet quay them, mua stock, hay de MC tren hinh."
+    }
+  ]
+}
